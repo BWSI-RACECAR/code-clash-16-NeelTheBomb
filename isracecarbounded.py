@@ -7,6 +7,8 @@ class Solution:
             #direction= ['S':0,'W':1,'N':2,'E':3] Reference for cur_dir (current direction)
             cur_dir=2
             angle = 0
+            print(instructins)
+            print(instructions.count("R") == instructions.count("L"))
             return instructions.count("R") == instructions.count("L")
             # for b in range(3):
             #     for i in range(len(instructions)):
