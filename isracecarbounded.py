@@ -32,12 +32,12 @@ class Solution:
                         angle = angle + 90
                     if instructions[i] == "R":
                         angle = angle - 90
-                    if b > 0:
-                        if cur_pos == initial_pos:
-                            return True
-                        else:
-                            return False
-            
+                    
+            if cur_pos == initial_pos:
+                return True
+            else:
+                return False
+        
             #TODO: Write code below to returnn a boolean value with the solution to the prompt.
             pass
         
